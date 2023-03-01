@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  padding: 0.8rem 1.4rem;
+  gap: 1rem;
+
+  border-radius: 0.8rem;
+
+  background-color: var(--white);
+
+  -webkit-box-shadow: 10px 18px 133px -4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 10px 18px 133px -4px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 18px 133px -4px rgba(0, 0, 0, 0.2);
+
+  position: absolute;
+  left: -0.4rem;
+  top: 2.25rem;
+}
+.polygon {
+  position: absolute;
+  top: -1.5rem;
+  left: 0.3rem;
+}
+.grup_icons {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.card__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+
+  cursor: pointer;
+}
+.edit {
+  width: 1.8rem;
+  height: 1.65rem;
+}
+.close {
+  width: 2rem;
+  height: 2rem;
+}

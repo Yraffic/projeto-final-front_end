@@ -1,0 +1,17 @@
+.progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.progress__item {
+  width: 82px;
+  height: 6px;
+  border-radius: 1.75rem;
+}
+.progress__item--active {
+  background-color: var(--green-200);
+}
+.progress__item--inactive {
+  background-color: var(--grey-300);
+}

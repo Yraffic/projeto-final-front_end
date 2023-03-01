@@ -1,0 +1,45 @@
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 5.1rem;
+
+  width: 6.75rem;
+  height: 100vh;
+
+  background-color: var(--grey-200);
+
+  padding-top: 3.4rem;
+}
+.sidebar__item {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.45rem;
+
+  width: 100%;
+  cursor: pointer;
+}
+.sidebar__item--active {
+  color: var(--pink-200);
+  border-right: 2px solid var(--pink-200);
+}
+.sidebar__item--active span {
+  color: var(--pink-200);
+}
+.sidebar__item--active svg path {
+  stroke: var(--pink-200);
+}
+img {
+  width: 3rem;
+  height: 3rem;
+}

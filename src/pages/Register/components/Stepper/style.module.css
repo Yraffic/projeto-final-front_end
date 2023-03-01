@@ -1,0 +1,76 @@
+.step {
+  cursor: pointer;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4px;
+}
+.steps-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}
+.step__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-direction: column;
+  gap: 4px;
+}
+.step__icons__icon {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: relative;
+}
+.step__icons__icon::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.step__icons__icon--active {
+  background-color: var(--green-200);
+}
+.step__icons__icon--active::before {
+  background-color: var(--grey-200);
+}
+.step__icons__icon--inactive {
+  background-color: none;
+  border: 1px solid var(--green-200);
+}
+.step__icons__icon--inactive::before {
+  background-color: var(--green-200);
+}
+.step__icons__icon--completed {
+  background-color: var(--green-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.step__icons__icon--completed::before {
+  content: none;
+}
+.step__separator {
+  width: 3px;
+  height: 40px;
+  background-color: var(--green-200);
+  margin: 0 20px;
+}
+.step__separator--unactive {
+  background: none;
+}
+.step__content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+}

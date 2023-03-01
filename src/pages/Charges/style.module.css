@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+.client__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 80vw;
+}
+.client__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 80vw;
+}
+.client__flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.client__flex_img {
+  width: 2rem;
+  height: 2rem;
+
+  cursor: pointer;
+}
+.client__nav_filtro {
+  width: 1.5rem;
+  width: 1.5rem;
+}
+.client__nav_input {
+  all: unset;
+
+  width: 19.8rem;
+  border-radius: 0.62rem;
+
+  padding: 0.4rem 0.5rem;
+
+  background-color: var(--white);
+  color: var(--grey-600);
+
+  position: relative;
+}
+.client__nav_input_img {
+  position: absolute;
+  right: 8rem;
+
+  width: 0.9rem;
+  height: 0.9rem;
+}

@@ -1,0 +1,46 @@
+.conteiner--spaced {
+  padding: 4.4rem 0;
+}
+.conteiner_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  width: 83%;
+  margin: 0 auto;
+}
+.atencao_img {
+  width: 8rem;
+  height: 9.5rem;
+}
+.conteiner__buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+  width: 100%;
+}
+.button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  min-width: 100px;
+  padding: 0.4rem 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+
+  transition: 0.2s ease-in-out;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.button--red {
+  background-color: var(--red-200);
+}
+.button--green {
+  background-color: var(--green-100);
+}

@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  width: 100%;
+  max-width: 600px;
+  min-height: 32rem;
+  border-radius: 1.875rem;
+
+  background-color: var(--grey-200);
+}
+.card--primary {
+  background-color: var(--white);
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 6.5rem;
+  height: 6.5rem;
+
+  border: 0.25rem solid var(--green-200);
+  border-radius: 50%;
+}

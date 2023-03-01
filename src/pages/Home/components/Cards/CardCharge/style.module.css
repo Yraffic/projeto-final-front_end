@@ -1,0 +1,22 @@
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-grow: 1;
+
+  border-radius: 1.8rem;
+  padding: 1.5rem 0.5rem;
+}
+.card__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 0.5rem;
+}
+.card__image {
+  width: 2rem;
+  height: 2rem;
+}

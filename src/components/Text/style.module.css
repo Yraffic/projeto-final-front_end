@@ -1,0 +1,20 @@
+.title {
+  font-size: var(--size-extra-Large);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
+}
+.subtitle {
+  font-size: var(--size-large);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-medium);
+}
+.paragraph {
+  font-size: var(--size-regular);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-regular);
+}
+.span {
+  font-size: var(--size-small);
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-regular);
+}

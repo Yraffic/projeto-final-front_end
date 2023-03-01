@@ -1,0 +1,102 @@
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  gap: 0.5rem;
+
+  position: relative;
+}
+.label--round {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  width: 100%;
+  gap: 0.5rem;
+
+  background: var(--grey-200);
+  border-radius: 10px;
+}
+.label--round span {
+  font-size: var(--size-regular) !important;
+  font-weight: var(--font-weight-regular) !important;
+}
+.input {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+
+  width: 100%;
+  padding: 0.85rem 1.25rem;
+
+  background: var(--white);
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border: 1px solid var(--grey-400);
+  border-radius: 8px;
+
+  word-wrap: break-word;
+}
+.input--round {
+  all: unset;
+  box-sizing: border-box;
+
+  appearance: none;
+  background-color: var(--grey-400);
+  border-radius: 50%;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+.input--round::before {
+  display: none;
+  border: 2px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 6.35px;
+  top: 7.5px;
+  position: absolute;
+  transform: rotate(-45deg);
+  width: 12px;
+}
+.input--round:checked::before {
+  display: block;
+}
+.input--round:checked {
+  background-color: var(--green-200);
+  border-color: var(--green-200);
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.input:hover {
+  border: 1px solid var(--grey-500);
+}
+.input:focus {
+  border: 1px solid var(--pink-100);
+}
+.input::placeholder {
+  color: var(--grey-600);
+  font-size: var(--size-regular);
+}
+.input--error {
+  border: 1px solid var(--red-400);
+}
+.input--error:focus {
+  border: 1px solid var(--red-400);
+}
+.eye-container {
+  cursor: pointer;
+  position: absolute;
+  top: 3.3rem;
+  right: 1.25rem;
+  transform: translateY(-50%);
+}

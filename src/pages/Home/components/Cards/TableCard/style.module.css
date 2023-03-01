@@ -1,0 +1,88 @@
+.card_client {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 30%;
+  min-width: 350px;
+  flex-grow: 1;
+
+  border-radius: 2rem;
+  background-color: var(--white);
+}
+.header__com_icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 0.5rem;
+}
+.header__com_icon img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+
+  width: 100%;
+  padding: 1.15rem;
+}
+.card__header--spaced {
+  justify-content: space-between;
+}
+.card__circle {
+  padding: 0 0.9rem;
+  min-width: 42px;
+  border-radius: 0.5rem;
+}
+.card__circle--Vencidas {
+  background-color: var(--wine-200);
+}
+.card__circle--Vencidas h3 {
+  color: var(--wine-300);
+}
+.card__circle--Previstas {
+  background-color: var(--yellow-200);
+}
+.card__circle--Previstas h3 {
+  color: var(--yellow-300);
+}
+.card__circle--Pagas {
+  background-color: var(--petroleum-200);
+}
+.card__circle--Pagas h3 {
+  color: var(--petroleum-300);
+}
+.table {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  min-height: 18.2rem;
+  width: 100%;
+
+  border-bottom: 0.06rem solid var(--petroleum-200);
+  border-top: 0.06rem solid var(--petroleum-200);
+}
+.table__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+
+  width: 100%;
+
+  padding: 1.25rem 1.5rem;
+
+  border-bottom: 0.06rem solid var(--petroleum-200);
+}
+.table__item span {
+  width: 120px;
+}
+.card__footer {
+  padding: 0.8rem 0;
+  cursor: pointer;
+}
